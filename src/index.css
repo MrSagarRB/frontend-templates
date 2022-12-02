@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test {
+  border: 1px red solid;
+}
+
+.liner-bg1 {
+  background: linear-gradient(139.83deg, #52e5e7 0%, #130cb7 127.36%);
+}
+
+.whatsapp {
+  animation: whatsappAni1 10s infinite ease;
+}
+
+.facebook {
+  animation: facebookAni1 7s infinite ease;
+}
+
+.linkdin {
+  animation: linkdinAni1 15s infinite;
+}
+
+@keyframes whatsappAni1 {
+  0% {
+    top: 60px;
+  }
+  50% {
+    top: 100px;
+  }
+  100% {
+    top: 60px;
+  }
+}
+
+@keyframes facebookAni1 {
+  0% {
+    top: 60px;
+  }
+  50% {
+    top: 120px;
+  }
+  100% {
+    top: 60px;
+  }
+}
+
+@keyframes linkdinAni1 {
+  0% {
+    top: 150px;
+  }
+  50% {
+    top: 220px;
+  }
+  100% {
+    top: 150px;
+  }
+}
+
+.headingAnimation {
+  animation: headingAni1 10s;
+}
+
+@keyframes headingAni1 {
+  0% {
+    top: 150px;
+  }
+  50% {
+    top: 220px;
+  }
+}
